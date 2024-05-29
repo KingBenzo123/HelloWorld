@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="./helloWorld.js"></script>
+</head>
+<body>
+    <div id="titleDiv">Welcome to Earth</div>
+    <canvas id="canvas" width="612" height="612">
+        Sorry; Your browser doesn't support the canvas element :(
+    </canvas>
+    <div>
+        <input id="zoom" type="range" min="0" max="10" value="0" step=".5"/>
+        <div id="zoomLevel">Zoom: 0</div>
+    </div>
+    <div>
+        <input id="mode0" type="button" value="Full Lighting - No Clouds"/>
+        <input id="mode1" type="button" value="Full Lighting"/>
+        <input id="mode2" type="button" value="Regular Map"/>
+        <input id="mode3" type="button" value="Normal Map"/>
+        <input id="mode5" type="button" value="Specular Map"/>
+    </div>
+</body>
+</html>
