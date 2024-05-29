@@ -19,3 +19,4 @@ Prerequisites
 A modern web browser that supports WebGL2.0 (e.g., Google Chrome, Mozilla Firefox, or Microsoft Edge).
 Basic familiarity with HTML and JavaScript is beneficial for understanding and modifying the code.
 
+helperfunctions.ts should be in the project
